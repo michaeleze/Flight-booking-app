@@ -1,0 +1,3107 @@
+{
+    "meta": {
+        "stations": {
+            "origin": "001",
+            "originName": "Deutschland - Nord",
+            "destination": "BER",
+            "destinationName": "Berlin Brandenburg",
+            "airlineCode": "EW",
+            "isRedirectRoute": false
+        },
+        "currencies": {
+            "EUR": {
+                "template": "0 €",
+                "symbol": "€",
+                "position": "right",
+                "decimalSeparator": ",",
+                "groupingSeparator": "."
+            }
+        }
+    },
+    "sections": [{
+        "type": "outbound",
+        "meta": {
+            "enableAllDates": false,
+            "isVirtual": false,
+            "virtualTypes": [],
+            "date": {
+                "outbound": "2022-05-02",
+                "inbound": "2023-03-25",
+                "max": "2023-03-25",
+                "next": "2022-05-03"
+            },
+            "stations": {
+                "origin": "001",
+                "originName": "Deutschland - Nord",
+                "destination": "BER",
+                "destinationName": "Berlin Brandenburg",
+                "airlineCode": "EW",
+                "isRedirectRoute": false
+            }
+        },
+        "bookableMonths": [{
+                "expandedDates": [{
+                        "date": 3,
+                        "price": {
+                            "raw": 104.99,
+                            "formatted": "104,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 4,
+                        "price": {
+                            "raw": 104.99,
+                            "formatted": "104,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 5,
+                        "price": {
+                            "raw": 104.99,
+                            "formatted": "104,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 6,
+                        "price": {
+                            "raw": 104.99,
+                            "formatted": "104,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 9,
+                        "price": {
+                            "raw": 104.99,
+                            "formatted": "104,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 10,
+                        "price": {
+                            "raw": 104.99,
+                            "formatted": "104,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 11,
+                        "price": {
+                            "raw": 104.99,
+                            "formatted": "104,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 12,
+                        "price": {
+                            "raw": 104.99,
+                            "formatted": "104,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 13,
+                        "price": {
+                            "raw": 104.99,
+                            "formatted": "104,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 14,
+                        "price": {
+                            "raw": 134.99,
+                            "formatted": "134,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 15,
+                        "price": {
+                            "raw": 244.99,
+                            "formatted": "244,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 16,
+                        "price": {
+                            "raw": 104.99,
+                            "formatted": "104,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 17,
+                        "price": {
+                            "raw": 104.99,
+                            "formatted": "104,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 18,
+                        "price": {
+                            "raw": 104.99,
+                            "formatted": "104,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 19,
+                        "price": {
+                            "raw": 104.99,
+                            "formatted": "104,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 20,
+                        "price": {
+                            "raw": 104.99,
+                            "formatted": "104,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 22,
+                        "price": {
+                            "raw": 114.99,
+                            "formatted": "114,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 23,
+                        "price": {
+                            "raw": 104.99,
+                            "formatted": "104,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 24,
+                        "price": {
+                            "raw": 104.99,
+                            "formatted": "104,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 25,
+                        "price": {
+                            "raw": 104.99,
+                            "formatted": "104,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 26,
+                        "price": {
+                            "raw": 224.99,
+                            "formatted": "224,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 27,
+                        "price": {
+                            "raw": 94.99,
+                            "formatted": "94,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 28,
+                        "price": {
+                            "raw": 104.99,
+                            "formatted": "104,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 30,
+                        "price": {
+                            "raw": 104.99,
+                            "formatted": "104,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 31,
+                        "price": {
+                            "raw": 104.99,
+                            "formatted": "104,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 8,
+                        "price": {
+                            "raw": 284.99,
+                            "formatted": "284,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 29,
+                        "price": {
+                            "raw": 334.99,
+                            "formatted": "334,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    }
+                ],
+                "year": 2022,
+                "month": 5,
+                "meta": {
+                    "price": {
+                        "min": 94.99,
+                        "max": 334.99
+                    }
+                },
+                "bookable": true
+            },
+            {
+                "expandedDates": [{
+                        "date": 1,
+                        "price": {
+                            "raw": 134.99,
+                            "formatted": "134,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 2,
+                        "price": {
+                            "raw": 134.99,
+                            "formatted": "134,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 3,
+                        "price": {
+                            "raw": 114.99,
+                            "formatted": "114,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 4,
+                        "price": {
+                            "raw": 134.99,
+                            "formatted": "134,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 5,
+                        "price": {
+                            "raw": 154.99,
+                            "formatted": "154,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 6,
+                        "price": {
+                            "raw": 94.99,
+                            "formatted": "94,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 7,
+                        "price": {
+                            "raw": 104.99,
+                            "formatted": "104,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 8,
+                        "price": {
+                            "raw": 104.99,
+                            "formatted": "104,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 9,
+                        "price": {
+                            "raw": 104.99,
+                            "formatted": "104,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 10,
+                        "price": {
+                            "raw": 94.99,
+                            "formatted": "94,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 11,
+                        "price": {
+                            "raw": 114.99,
+                            "formatted": "114,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 12,
+                        "price": {
+                            "raw": 154.99,
+                            "formatted": "154,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 13,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 14,
+                        "price": {
+                            "raw": 104.99,
+                            "formatted": "104,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 15,
+                        "price": {
+                            "raw": 104.99,
+                            "formatted": "104,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 16,
+                        "price": {
+                            "raw": 164.99,
+                            "formatted": "164,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 17,
+                        "price": {
+                            "raw": 114.99,
+                            "formatted": "114,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 18,
+                        "price": {
+                            "raw": 104.99,
+                            "formatted": "104,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 19,
+                        "price": {
+                            "raw": 244.99,
+                            "formatted": "244,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 20,
+                        "price": {
+                            "raw": 94.99,
+                            "formatted": "94,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 21,
+                        "price": {
+                            "raw": 114.99,
+                            "formatted": "114,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 22,
+                        "price": {
+                            "raw": 104.99,
+                            "formatted": "104,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 23,
+                        "price": {
+                            "raw": 134.99,
+                            "formatted": "134,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 24,
+                        "price": {
+                            "raw": 104.99,
+                            "formatted": "104,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 25,
+                        "price": {
+                            "raw": 104.99,
+                            "formatted": "104,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 26,
+                        "price": {
+                            "raw": 154.99,
+                            "formatted": "154,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 27,
+                        "price": {
+                            "raw": 94.99,
+                            "formatted": "94,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 28,
+                        "price": {
+                            "raw": 94.99,
+                            "formatted": "94,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 29,
+                        "price": {
+                            "raw": 104.99,
+                            "formatted": "104,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 30,
+                        "price": {
+                            "raw": 94.99,
+                            "formatted": "94,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    }
+                ],
+                "year": 2022,
+                "month": 6,
+                "meta": {
+                    "price": {
+                        "min": 84.99,
+                        "max": 244.99
+                    }
+                },
+                "bookable": true
+            },
+            {
+                "expandedDates": [{
+                        "date": 1,
+                        "price": {
+                            "raw": 94.99,
+                            "formatted": "94,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 2,
+                        "price": {
+                            "raw": 114.99,
+                            "formatted": "114,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 3,
+                        "price": {
+                            "raw": 194.99,
+                            "formatted": "194,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 4,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 5,
+                        "price": {
+                            "raw": 94.99,
+                            "formatted": "94,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 6,
+                        "price": {
+                            "raw": 94.99,
+                            "formatted": "94,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 7,
+                        "price": {
+                            "raw": 94.99,
+                            "formatted": "94,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 8,
+                        "price": {
+                            "raw": 94.99,
+                            "formatted": "94,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 9,
+                        "price": {
+                            "raw": 154.99,
+                            "formatted": "154,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 10,
+                        "price": {
+                            "raw": 134.99,
+                            "formatted": "134,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 11,
+                        "price": {
+                            "raw": 94.99,
+                            "formatted": "94,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 12,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 13,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 14,
+                        "price": {
+                            "raw": 94.99,
+                            "formatted": "94,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 15,
+                        "price": {
+                            "raw": 94.99,
+                            "formatted": "94,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 16,
+                        "price": {
+                            "raw": 104.99,
+                            "formatted": "104,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 17,
+                        "price": {
+                            "raw": 134.99,
+                            "formatted": "134,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 18,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 19,
+                        "price": {
+                            "raw": 94.99,
+                            "formatted": "94,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 20,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 21,
+                        "price": {
+                            "raw": 94.99,
+                            "formatted": "94,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 22,
+                        "price": {
+                            "raw": 94.99,
+                            "formatted": "94,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 23,
+                        "price": {
+                            "raw": 104.99,
+                            "formatted": "104,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 24,
+                        "price": {
+                            "raw": 134.99,
+                            "formatted": "134,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 25,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 26,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 27,
+                        "price": {
+                            "raw": 94.99,
+                            "formatted": "94,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 28,
+                        "price": {
+                            "raw": 114.99,
+                            "formatted": "114,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 29,
+                        "price": {
+                            "raw": 94.99,
+                            "formatted": "94,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 30,
+                        "price": {
+                            "raw": 104.99,
+                            "formatted": "104,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 31,
+                        "price": {
+                            "raw": 114.99,
+                            "formatted": "114,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    }
+                ],
+                "year": 2022,
+                "month": 7,
+                "meta": {
+                    "price": {
+                        "min": 84.99,
+                        "max": 194.99
+                    }
+                },
+                "bookable": true
+            },
+            {
+                "expandedDates": [{
+                        "date": 1,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 2,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 3,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 4,
+                        "price": {
+                            "raw": 114.99,
+                            "formatted": "114,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 5,
+                        "price": {
+                            "raw": 94.99,
+                            "formatted": "94,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 6,
+                        "price": {
+                            "raw": 94.99,
+                            "formatted": "94,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 7,
+                        "price": {
+                            "raw": 134.99,
+                            "formatted": "134,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 8,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 9,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 10,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 11,
+                        "price": {
+                            "raw": 114.99,
+                            "formatted": "114,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 12,
+                        "price": {
+                            "raw": 94.99,
+                            "formatted": "94,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 13,
+                        "price": {
+                            "raw": 104.99,
+                            "formatted": "104,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 14,
+                        "price": {
+                            "raw": 134.99,
+                            "formatted": "134,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 15,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 16,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 17,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 18,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 19,
+                        "price": {
+                            "raw": 94.99,
+                            "formatted": "94,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 20,
+                        "price": {
+                            "raw": 104.99,
+                            "formatted": "104,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 21,
+                        "price": {
+                            "raw": 114.99,
+                            "formatted": "114,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 22,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 23,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 24,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 25,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 26,
+                        "price": {
+                            "raw": 94.99,
+                            "formatted": "94,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 27,
+                        "price": {
+                            "raw": 104.99,
+                            "formatted": "104,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 28,
+                        "price": {
+                            "raw": 134.99,
+                            "formatted": "134,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 29,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 30,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 31,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    }
+                ],
+                "year": 2022,
+                "month": 8,
+                "meta": {
+                    "price": {
+                        "min": 84.99,
+                        "max": 134.99
+                    }
+                },
+                "bookable": true
+            },
+            {
+                "expandedDates": [{
+                        "date": 1,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 2,
+                        "price": {
+                            "raw": 94.99,
+                            "formatted": "94,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 3,
+                        "price": {
+                            "raw": 104.99,
+                            "formatted": "104,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 4,
+                        "price": {
+                            "raw": 114.99,
+                            "formatted": "114,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 5,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 6,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 7,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 8,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 9,
+                        "price": {
+                            "raw": 94.99,
+                            "formatted": "94,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 10,
+                        "price": {
+                            "raw": 104.99,
+                            "formatted": "104,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 11,
+                        "price": {
+                            "raw": 104.99,
+                            "formatted": "104,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 12,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 13,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 14,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 15,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 16,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 17,
+                        "price": {
+                            "raw": 104.99,
+                            "formatted": "104,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 18,
+                        "price": {
+                            "raw": 114.99,
+                            "formatted": "114,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 19,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 20,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 21,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 22,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 23,
+                        "price": {
+                            "raw": 94.99,
+                            "formatted": "94,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 24,
+                        "price": {
+                            "raw": 104.99,
+                            "formatted": "104,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 25,
+                        "price": {
+                            "raw": 114.99,
+                            "formatted": "114,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 26,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 27,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 28,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 29,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 30,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    }
+                ],
+                "year": 2022,
+                "month": 9,
+                "meta": {
+                    "price": {
+                        "min": 84.99,
+                        "max": 114.99
+                    }
+                },
+                "bookable": true
+            },
+            {
+                "expandedDates": [{
+                        "date": 1,
+                        "price": {
+                            "raw": 104.99,
+                            "formatted": "104,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 2,
+                        "price": {
+                            "raw": 114.99,
+                            "formatted": "114,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 3,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 4,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 5,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 6,
+                        "price": {
+                            "raw": 94.99,
+                            "formatted": "94,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 7,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 8,
+                        "price": {
+                            "raw": 194.99,
+                            "formatted": "194,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 9,
+                        "price": {
+                            "raw": 114.99,
+                            "formatted": "114,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 10,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 11,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 12,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 13,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 14,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 15,
+                        "price": {
+                            "raw": 104.99,
+                            "formatted": "104,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 16,
+                        "price": {
+                            "raw": 114.99,
+                            "formatted": "114,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 17,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 18,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 19,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 20,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 21,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 22,
+                        "price": {
+                            "raw": 104.99,
+                            "formatted": "104,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 23,
+                        "price": {
+                            "raw": 114.99,
+                            "formatted": "114,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 24,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 25,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 26,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 27,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 28,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 29,
+                        "price": {
+                            "raw": 114.99,
+                            "formatted": "114,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 30,
+                        "price": {
+                            "raw": 94.99,
+                            "formatted": "94,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 31,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    }
+                ],
+                "year": 2022,
+                "month": 10,
+                "meta": {
+                    "price": {
+                        "min": 84.99,
+                        "max": 194.99
+                    }
+                },
+                "bookable": true
+            },
+            {
+                "expandedDates": [{
+                        "date": 1,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 2,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 3,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 4,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 5,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 6,
+                        "price": {
+                            "raw": 94.99,
+                            "formatted": "94,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 7,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 8,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 9,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 10,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 11,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 12,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 13,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 14,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 15,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 16,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 17,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 18,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 19,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 20,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 21,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 22,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 23,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 24,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 25,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 26,
+                        "price": {
+                            "raw": 94.99,
+                            "formatted": "94,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 27,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 28,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 29,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 30,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    }
+                ],
+                "year": 2022,
+                "month": 11,
+                "meta": {
+                    "price": {
+                        "min": 84.99,
+                        "max": 94.99
+                    }
+                },
+                "bookable": true
+            },
+            {
+                "expandedDates": [{
+                        "date": 1,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 2,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 3,
+                        "price": {
+                            "raw": 94.99,
+                            "formatted": "94,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 4,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 5,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 6,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 7,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 8,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 9,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 10,
+                        "price": {
+                            "raw": 94.99,
+                            "formatted": "94,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 11,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 12,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 13,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 14,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 15,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 16,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 17,
+                        "price": {
+                            "raw": 94.99,
+                            "formatted": "94,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 18,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 19,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 20,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 21,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 22,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 23,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 24,
+                        "price": {
+                            "raw": 94.99,
+                            "formatted": "94,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 25,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 26,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 27,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 28,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 29,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 30,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 31,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    }
+                ],
+                "year": 2022,
+                "month": 12,
+                "meta": {
+                    "price": {
+                        "min": 84.99,
+                        "max": 94.99
+                    }
+                },
+                "bookable": true
+            },
+            {
+                "expandedDates": [{
+                        "date": 1,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 2,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 3,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 4,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 5,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 6,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 7,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 8,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 9,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 10,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 11,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 12,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 13,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 14,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 15,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 16,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 17,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 18,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 19,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 20,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 21,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 22,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 23,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 24,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 25,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 26,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 27,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 28,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 29,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 30,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 31,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    }
+                ],
+                "year": 2023,
+                "month": 1,
+                "meta": {
+                    "price": {
+                        "min": 84.99,
+                        "max": 84.99
+                    }
+                },
+                "bookable": true
+            },
+            {
+                "expandedDates": [{
+                        "date": 1,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 2,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 3,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 4,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 5,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 6,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 7,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 8,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 9,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 10,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 11,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 12,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 13,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 14,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 15,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 16,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 17,
+                        "price": {
+                            "raw": 74.99,
+                            "formatted": "74,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 18,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 19,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 20,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 21,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 22,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 23,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 24,
+                        "price": {
+                            "raw": 74.99,
+                            "formatted": "74,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 25,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 26,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 27,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 28,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    }
+                ],
+                "year": 2023,
+                "month": 2,
+                "meta": {
+                    "price": {
+                        "min": 74.99,
+                        "max": 84.99
+                    }
+                },
+                "bookable": true
+            },
+            {
+                "expandedDates": [{
+                        "date": 1,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 2,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 3,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 4,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 5,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 6,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 7,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 8,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 9,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 10,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 11,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 12,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 13,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 14,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 15,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 16,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 17,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 18,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 19,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 20,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 21,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 22,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 23,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 24,
+                        "price": {
+                            "raw": 84.99,
+                            "formatted": "84,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    },
+                    {
+                        "date": 25,
+                        "price": {
+                            "raw": 104.99,
+                            "formatted": "104,99"
+                        },
+                        "currency": "EUR",
+                        "suffix": "*"
+                    }
+                ],
+                "year": 2023,
+                "month": 3,
+                "meta": {
+                    "price": {
+                        "min": 84.99,
+                        "max": 104.99
+                    }
+                },
+                "bookable": true
+            }
+        ]
+    }],
+    "header": {
+        "code": "SUCCESS",
+        "statusCode": 200,
+        "version": "1.2.0",
+        "timestamp": 1651518279555
+    }
+}
