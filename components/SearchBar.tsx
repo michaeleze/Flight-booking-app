@@ -1,8 +1,10 @@
 import React, { ChangeEvent } from 'react';
 import { MdFlight } from 'react-icons/md';
-import DateOption from './DateOption';
-import SelectOption from './SelectOption';
 import { ORIGIN, DESTINATION, CABIN_CODE } from '@/constants/index';
+import dynamic from 'next/dynamic';
+
+const DateOption = dynamic(() => import('./DateOption'));
+const SelectOption = dynamic(() => import('./SelectOption'));
 
 type SearchBarProps = {
   headerText?: string;
