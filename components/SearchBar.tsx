@@ -1,4 +1,8 @@
-import React from 'react';
+import React, { ChangeEvent } from 'react';
+import { MdFlight } from 'react-icons/md';
+import DateOption from './DateOption';
+import SelectOption from './SelectOption';
+import { ORIGIN, DESTINATION, CABIN_CODE } from '@/constants/index';
 
 type SearchBarProps = {
   headerText?: string;
@@ -7,63 +11,78 @@ type SearchBarProps = {
 const SearchBar: React.FC<SearchBarProps> = ({
   headerText = 'Search Flights',
 }) => {
+  const [selectedOrigin, setSelectedOrigin] = React.useState<string>('');
+  const [selectedDestination, setSelectedDestination] =
+    React.useState<string>('');
+  const [departureDate, setDepartureDate] = React.useState<string>('');
+  const [returnDate, setReturnDate] = React.useState<string>('');
+  const [selectedCode, setSelectedCode] = React.useState<string>('');
+
+  const handleSelectOrigin = (event: ChangeEvent<HTMLSelectElement>) =>
+    setSelectedOrigin(event?.target?.value);
+
+  const handleSelectDestination = (event: ChangeEvent<HTMLSelectElement>) =>
+    setSelectedDestination(event?.currentTarget?.value);
+
+  const handleChangeDepartureDate = (event: ChangeEvent<HTMLInputElement>) =>
+    setDepartureDate(event?.currentTarget?.value);
+
+  const handleChangeReturnDate = (event: ChangeEvent<HTMLInputElement>) =>
+    setReturnDate(event?.currentTarget?.value);
+
+  const handleSelectCode = (event: ChangeEvent<HTMLSelectElement>) =>
+    setSelectedCode(event?.currentTarget?.value);
+
   return (
-    <div className="my-8 mx-auto flex max-w-5xl flex-col space-x-4 rounded-xl bg-white p-6 shadow-md">
-      <h1 className="pb-16 text-3xl">{headerText}</h1>
-      <div>
-        <input
-          className="bg-gray-20 my-6 max-w-2xl rounded border border-gray-100 border-gray-100 p-2 text-gray-900"
-          type="text"
-          placeholder="FROM"
-        />
-        <input
-          className="bg-gray-20 my-6 max-w-2xl rounded border border-gray-100 border-gray-100 p-2 text-gray-900"
-          type="text"
-          placeholder="TO"
-        />
-        <div className="relative">
-          <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3">
-            <svg
-              className="h-5 w-5 text-gray-500 dark:text-gray-400"
-              fill="currentColor"
-              viewBox="0 0 20 20"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                fill-rule="evenodd"
-                d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
-                clip-rule="evenodd"
-              ></path>
-            </svg>
-          </div>
-          <input
-            type="date"
-            className="bg-gray-20 block w-2/5 rounded-lg border border-gray-100 p-2.5 pl-10 text-gray-900 focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500 sm:text-sm"
-            placeholder="Select date"
+    <div className="container my-8 mx-auto flex max-w-5xl flex-col space-x-4 rounded-xl bg-white p-6 shadow-md">
+      <div className="flex gap-3 pb-10">
+        <MdFlight size={28} />
+        <h1 className="text-2xl">{headerText}</h1>
+      </div>
+      <div className="flex flex-row gap-12 py-5">
+        <div className="group relative z-0 mb-6 w-1/2">
+          <SelectOption
+            label="Departure"
+            options={ORIGIN}
+            selected={selectedOrigin}
+            handleSelect={handleSelectOrigin}
           />
         </div>
-        <div className="relative">
-          <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3">
-            <svg
-              className="h-5 w-5 text-gray-500 dark:text-gray-400"
-              fill="currentColor"
-              viewBox="0 0 20 20"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                fill-rule="evenodd"
-                d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
-                clip-rule="evenodd"
-              ></path>
-            </svg>
-          </div>
-          <input
-            type="date"
-            className="bg-gray-20 block w-2/5 rounded-lg border border-gray-100 p-2.5 pl-10 text-gray-900 focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500 sm:text-sm"
-            placeholder="Select date"
+        <div className="group relative z-0 mb-6 w-1/2">
+          <SelectOption
+            label="Destination"
+            options={DESTINATION}
+            selected={selectedDestination}
+            handleSelect={handleSelectDestination}
           />
         </div>
       </div>
+      <div className="flex flex-row gap-12 py-5">
+        <DateOption
+          label="Departure date"
+          handleSelectDate={handleChangeDepartureDate}
+          value={departureDate}
+        />
+        <DateOption
+          label="Return date"
+          handleSelectDate={handleChangeReturnDate}
+          value={returnDate}
+        />
+        <div className="group relative z-0 mb-6 w-1/4">
+          <SelectOption
+            label="Travel class"
+            options={CABIN_CODE}
+            selected={selectedCode}
+            handleSelect={handleSelectCode}
+          />
+        </div>
+      </div>
+      <button
+        type="button"
+        className="my-6 mr-2 w-1/4 self-end rounded-full bg-blue-700 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+      >
+        Search flights
+      </button>
     </div>
   );
 };

@@ -1,13 +1,9 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
-import * as data from 'mock.json';
-
-type Data = {
-  name: string;
-};
+import * as mock from 'mock.json';
 
 export default function handler(
   req: NextApiRequest,
-  res: NextApiResponse<Data>
+  res: NextApiResponse<typeof mock>
 ) {
   if (req.method === 'GET') {
     const {
@@ -20,6 +16,6 @@ export default function handler(
       serviceType,
     } = req.query;
 
-    res.status(200).json(data as any);
+    res.status(200).json(mock);
   }
 }
