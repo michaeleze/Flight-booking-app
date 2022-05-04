@@ -1,48 +1,46 @@
 {
-    "meta": {
-        "data": [{
-                "origin": "FRA",
-                "destination": "FCO",
-                "departuredate": "2017-01-13",
-                "returndate": "2016-01-14",
-                "seatavailability": "7",
-                "price": {
-                    "amount": "128.26",
-                    "currency": "EUR"
-                },
-                "offertype": "BestPrice",
-                "uuid": "SA00003-b790715d-b2b8-4d23-ac27-d4e88c0e84af"
+    "data": [{
+            "origin": "FRA",
+            "destination": "FCO",
+            "departuredate": "2017-01-13",
+            "returndate": "2016-01-14",
+            "seatavailability": "7",
+            "price": {
+                "amount": "128.26",
+                "currency": "EUR"
             },
-            {
-                "origin": "FRA",
-                "destination": "FCO",
-                "departuredate": "2017-01-13",
-                "returndate": "2016-01-14",
-                "seatavailability": "7",
-                "price": {
-                    "amount": "128.26",
-                    "currency": "EUR"
-                },
-                "offertype": "BestPrice",
-                "uuid": "SA00003-b790715d-b2b8-4d23-ac27-d4e88c0e84af"
+            "offertype": "BestPrice",
+            "uuid": "SA00004-b790715d-b2b8-4d23-ac27-d4e88c0e84af"
+        },
+        {
+            "origin": "FRA",
+            "destination": "FCO",
+            "departuredate": "2017-01-13",
+            "returndate": "2016-01-14",
+            "seatavailability": "7",
+            "price": {
+                "amount": "128.26",
+                "currency": "EUR"
             },
-            {
-                "origin": "FRA",
-                "destination": "FCO",
-                "departuredate": "2017-01-13",
-                "returndate": "2016-01-14",
-                "seatavailability": "7",
-                "price": {
-                    "amount": "128.26",
-                    "currency": "EUR"
-                },
-                "offertype": "BestPrice",
-                "uuid": "SA00003-b790715d-b2b8-4d23-ac27-d4e88c0e84af"
-            }
-        ],
-        "code": "SUCCESS",
-        "statusCode": 200,
-        "version": "1.2.0",
-        "timestamp": 1651518279555
-    }
+            "offertype": "BestPrice",
+            "uuid": "SA00003-b790715d-b2b8-4d23-ac27-d4e88c0e84af"
+        },
+        {
+            "origin": "FRA",
+            "destination": "FCO",
+            "departuredate": "2017-01-13",
+            "returndate": "2016-01-14",
+            "seatavailability": "7",
+            "price": {
+                "amount": "128.26",
+                "currency": "EUR"
+            },
+            "offertype": "BestPrice",
+            "uuid": "SA0000-b790715d-b2b8-4d23-ac27-d4e88c0e84af"
+        }
+    ],
+    "code": "SUCCESS",
+    "statusCode": 200,
+    "version": "1.2.0",
+    "timestamp": 1651518279555
 }

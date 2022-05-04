@@ -6,15 +6,9 @@ export default function handler(
   res: NextApiResponse<typeof mock>
 ) {
   if (req.method === 'GET') {
-    const {
-      origin,
-      destination,
-      departureDate,
-      returnDate,
-      cabinCode,
-      requestCountry,
-      serviceType,
-    } = req.query;
+    console.log('backend', req.query);
+    const { origin, destination, departureDate, returnDate, cabinCode } =
+      req.query;
 
     res.status(200).json(mock);
   }

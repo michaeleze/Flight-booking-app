@@ -29,10 +29,13 @@ export default function FlightListItem({
     price,
   } = item;
   return (
-    <ul role="list" className="divide-y divide-gray-200 dark:divide-gray-700 flow-root my-8 mx-auto flex max-w-5xl flex-col space-x-4 rounded-xl bg-white p-6 shadow-md">
+    <ul
+      role="list"
+      className="my-8 mx-auto flex flow-root max-w-5xl space-x-4 divide-y divide-gray-200 rounded-xl bg-white p-6 shadow-md dark:divide-gray-700 sm:flex-row md:flex-col"
+    >
       <li className="py-3 sm:py-4">
-        <div className="flex items-center space-x-4 container">
-          <div className="flex flex-1 min-w-0 gap-6">
+        <div className="container flex items-center space-x-4">
+          <div className="flex min-w-0 flex-1 gap-6">
             <MdFlightTakeoff size={28} className="h-8 w-8 rounded-full" />
             <div className="flex flex-col gap-2">
               <p className="truncate text-sm font-medium text-gray-900 dark:text-white">
@@ -43,7 +46,7 @@ export default function FlightListItem({
               </p>
             </div>
           </div>
-          <div className="flex flex-1 min-w-0 gap-6">
+          <div className="flex min-w-0 flex-1 gap-6">
             <MdFlightLand size={28} className="h-8 w-8 rounded-full" />
             <div className="flex flex-col gap-2">
               <p className="truncate text-sm font-medium text-gray-900 dark:text-white">
@@ -54,9 +57,9 @@ export default function FlightListItem({
               </p>
             </div>
           </div>
-          <div className="flex flex-1 min-w-0 gap-6">
+          <div className="flex min-w-0 flex-1 gap-6">
             <div className="flex flex-col gap-2">
-              <p className="truncate text-sm font-medium text-gray-900 dark:text-white text-center">
+              <p className="truncate text-center text-sm font-medium text-gray-900 dark:text-white">
                 {seatavailability}
               </p>
               <p className="truncate text-sm text-gray-500 dark:text-gray-400">
@@ -64,7 +67,7 @@ export default function FlightListItem({
               </p>
             </div>
           </div>
-          <div className="flex flex-1 min-w-0 gap-6">
+          <div className="flex min-w-0 flex-1 gap-6">
             <div className="flex flex-col gap-2">
               <p className="truncate text-sm font-medium text-gray-900 dark:text-white">
                 {offertype}

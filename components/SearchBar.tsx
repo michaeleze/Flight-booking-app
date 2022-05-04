@@ -8,17 +8,22 @@ const SelectOption = dynamic(() => import('./SelectOption'));
 
 type SearchBarProps = {
   headerText?: string;
+  handleSearch: (
+    origin: string,
+    destination: string,
+    departureDate: string,
+    returnDate: string,
+    cabinCode: string
+  ) => void;
 };
 
-const SearchBar: React.FC<SearchBarProps> = ({
-  headerText = 'Search Flights',
-}) => {
+const SearchBar: React.FC<SearchBarProps> = ({ headerText, handleSearch }) => {
   const [selectedOrigin, setSelectedOrigin] = React.useState<string>('');
   const [selectedDestination, setSelectedDestination] =
     React.useState<string>('');
   const [departureDate, setDepartureDate] = React.useState<string>('');
   const [returnDate, setReturnDate] = React.useState<string>('');
-  const [selectedCode, setSelectedCode] = React.useState<string>('');
+  const [cabinCode, setCabinCode] = React.useState<string>('');
 
   const handleSelectOrigin = (event: ChangeEvent<HTMLSelectElement>) =>
     setSelectedOrigin(event?.target?.value);
@@ -33,7 +38,7 @@ const SearchBar: React.FC<SearchBarProps> = ({
     setReturnDate(event?.currentTarget?.value);
 
   const handleSelectCode = (event: ChangeEvent<HTMLSelectElement>) =>
-    setSelectedCode(event?.currentTarget?.value);
+    setCabinCode(event?.currentTarget?.value);
 
   return (
     <div className="container my-8 mx-auto flex max-w-5xl flex-col space-x-4 rounded-xl bg-white p-6 shadow-md">
@@ -74,12 +79,21 @@ const SearchBar: React.FC<SearchBarProps> = ({
           <SelectOption
             label="Travel class"
             options={CABIN_CODE}
-            selected={selectedCode}
+            selected={cabinCode}
             handleSelect={handleSelectCode}
           />
         </div>
       </div>
       <button
+        onClick={() =>
+          handleSearch(
+            selectedOrigin,
+            selectedDestination,
+            departureDate,
+            returnDate,
+            cabinCode
+          )
+        }
         type="button"
         className="my-6 mr-2 w-1/4 self-end rounded-full bg-blue-700 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
       >
