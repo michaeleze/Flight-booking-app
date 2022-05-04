@@ -1,6 +1,5 @@
 import type { NextPage } from 'next';
 import dynamic from 'next/dynamic';
-import * as mock from 'mock.json';
 import { FlightListItemProps } from '@/components/FlightListItem';
 import { useState } from 'react';
 
@@ -36,7 +35,9 @@ const Home: NextPage = () => {
       <SearchBar handleSearch={handleSearch} headerText="Search Flights" />
       {flightResult &&
         flightResult?.map((item: FlightListItemProps) => (
-          <div key={item.uuid}><FlightListItem item={item} /></div>
+          <div key={item.uuid}>
+            <FlightListItem item={item} />
+          </div>
         ))}
     </>
   );

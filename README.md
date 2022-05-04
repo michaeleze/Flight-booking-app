@@ -1,6 +1,8 @@
 # EuroWIngs Flight Booking
 
-### Installation
+This Application returns flight schedule for a particular date.
+
+### Install
 ```bash
 yarn
 
@@ -8,6 +10,6 @@ yarn
 ```bash
 yarn dev
 
-### Test
+### Run Test
 ```bash
 yarn test

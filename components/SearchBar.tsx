@@ -25,8 +25,10 @@ const SearchBar: React.FC<SearchBarProps> = ({ headerText, handleSearch }) => {
   const [returnDate, setReturnDate] = React.useState<string>('');
   const [cabinCode, setCabinCode] = React.useState<string>('');
 
-  const handleSelectOrigin = (event: ChangeEvent<HTMLSelectElement>) =>
+  const handleSelectOrigin = (event: ChangeEvent<HTMLSelectElement>) => {
     setSelectedOrigin(event?.target?.value);
+  }
+
 
   const handleSelectDestination = (event: ChangeEvent<HTMLSelectElement>) =>
     setSelectedDestination(event?.currentTarget?.value);
