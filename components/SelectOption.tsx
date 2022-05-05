@@ -11,7 +11,7 @@ export default function SelectOption(props: {
   return (
     <div className="group relative z-0 mb-6 w-full">
       <select
-        data-testid="select"
+        data-testid={`select-${label}`}
         id={label}
         onChange={handleSelect}
         value={selected}

@@ -1,6 +1,6 @@
 import React, { ChangeEvent } from 'react';
 import { MdFlight } from 'react-icons/md';
-import { ORIGIN, DESTINATION, CABIN_CODE } from '@/constants/index';
+import { ORIGIN, DESTINATION, CABIN_CODE } from '../constants';
 import dynamic from 'next/dynamic';
 
 const DateOption = dynamic(() => import('./DateOption'));
@@ -116,6 +116,7 @@ const SearchBar: React.FC<SearchBarProps> = ({ headerText, handleSearch }) => {
           )
         }
         type="button"
+        data-testid="search-button"
         className=" my-8 self-center rounded-full bg-blue-700 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 md:w-1/4 md:self-end"
       >
         Search flights

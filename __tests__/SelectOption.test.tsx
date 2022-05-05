@@ -18,7 +18,7 @@ describe('DateOption', () => {
         <SelectOption
           options={DESTINATION}
           handleSelect={handleSelect}
-          label="FRA"
+          label="Departure"
         />);
     });
   });
@@ -27,7 +27,7 @@ describe('DateOption', () => {
 
   it('should renders select component', async () => {
     const { getByTestId } = await component;
-    const selectComponent = getByTestId('select');
+    const selectComponent = getByTestId('select-Departure');
 
     expect(selectComponent).toBeInTheDocument();
   });
@@ -41,7 +41,7 @@ describe('DateOption', () => {
 
   it('should renders options', async () => {
     const { getByTestId } = await component;
-    const selectComponent = getByTestId('select');
+    const selectComponent = getByTestId('select-Departure');
 
     fireEvent.change(selectComponent);
 

@@ -16,7 +16,7 @@ Object {
             class="container flex flex-col items-center gap-y-6 space-x-4 md:flex-row md:gap-y-0"
           >
             <div
-              class="flex min-w-0 flex-1 flex-col gap-6 text-center md:flex-row md:text-left"
+              class="flex min-w-0 flex-1 flex-col md:gap-6 text-center md:flex-row md:text-left"
             >
               <svg
                 class="m-auto h-8 w-8 rounded-full "
@@ -52,7 +52,7 @@ Object {
               </div>
             </div>
             <div
-              class="flex min-w-0 flex-1 flex-col gap-6 text-center md:flex-row md:text-left"
+              class="flex min-w-0 flex-1 flex-col md:gap-6 text-center md:flex-row md:text-left"
             >
               <svg
                 class=" m-auto h-8 w-8 rounded-full"
@@ -88,10 +88,10 @@ Object {
               </div>
             </div>
             <div
-              class="flex min-w-0 flex-1 gap-6"
+              class="flex min-w-0 flex-1 gap-6 text-center md:text-left justify-center"
             >
               <div
-                class="flex flex-col gap-2"
+                class="flex flex-col item-center gap-2"
               >
                 <p
                   class="truncate text-center text-sm font-medium text-gray-900 dark:text-white"
@@ -106,13 +106,13 @@ Object {
               </div>
             </div>
             <div
-              class="flex min-w-0 flex-1 gap-6"
+              class="flex min-w-0 flex-1 gap-6 justify-center"
             >
               <div
                 class="flex flex-col gap-2"
               >
                 <p
-                  class="truncate text-sm font-medium text-gray-900 dark:text-white"
+                  class="truncate text-sm font-medium text-blue-800 dark:text-white"
                 >
                   economy
                 </p>
@@ -146,7 +146,7 @@ Object {
           class="container flex flex-col items-center gap-y-6 space-x-4 md:flex-row md:gap-y-0"
         >
           <div
-            class="flex min-w-0 flex-1 flex-col gap-6 text-center md:flex-row md:text-left"
+            class="flex min-w-0 flex-1 flex-col md:gap-6 text-center md:flex-row md:text-left"
           >
             <svg
               class="m-auto h-8 w-8 rounded-full "
@@ -182,7 +182,7 @@ Object {
             </div>
           </div>
           <div
-            class="flex min-w-0 flex-1 flex-col gap-6 text-center md:flex-row md:text-left"
+            class="flex min-w-0 flex-1 flex-col md:gap-6 text-center md:flex-row md:text-left"
           >
             <svg
               class=" m-auto h-8 w-8 rounded-full"
@@ -218,10 +218,10 @@ Object {
             </div>
           </div>
           <div
-            class="flex min-w-0 flex-1 gap-6"
+            class="flex min-w-0 flex-1 gap-6 text-center md:text-left justify-center"
           >
             <div
-              class="flex flex-col gap-2"
+              class="flex flex-col item-center gap-2"
             >
               <p
                 class="truncate text-center text-sm font-medium text-gray-900 dark:text-white"
@@ -236,13 +236,13 @@ Object {
             </div>
           </div>
           <div
-            class="flex min-w-0 flex-1 gap-6"
+            class="flex min-w-0 flex-1 gap-6 justify-center"
           >
             <div
               class="flex flex-col gap-2"
             >
               <p
-                class="truncate text-sm font-medium text-gray-900 dark:text-white"
+                class="truncate text-sm font-medium text-blue-800 dark:text-white"
               >
                 economy
               </p>
