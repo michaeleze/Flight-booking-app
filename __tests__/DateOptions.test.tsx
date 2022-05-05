@@ -38,8 +38,12 @@ describe('DateOption', () => {
   it('should fire onChange', () => {
     const { getByTestId } = component;
 
-    fireEvent.change(getByTestId('date-input'), {
-      target: { value: DEPATURE_DATE },
+    act(() => {
+      fireEvent.change(getByTestId('date-input'), {
+        target: {
+          value: DEPATURE_DATE,
+        },
+      });
     });
 
     expect(handleChangeDepartureDate).toHaveBeenCalledTimes(1);

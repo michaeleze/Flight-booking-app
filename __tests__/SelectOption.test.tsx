@@ -43,7 +43,7 @@ describe('DateOption', () => {
     const { getByTestId } = await component;
     const selectComponent = getByTestId('select-Departure');
 
-    fireEvent.change(selectComponent);
+    act(() => { fireEvent.change(selectComponent) })
 
     expect(selectComponent).toBeInTheDocument();
   });
