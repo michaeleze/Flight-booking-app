@@ -1,5 +1,5 @@
 {
-    "name": "Flight Booking App",
+    "name": "FlightBookingApp",
     "private": true,
     "scripts": {
         "dev": "next dev",
