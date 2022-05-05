@@ -1,9 +1,4 @@
-import {
-  act,
-  cleanup,
-  fireEvent,
-  render,
-} from '@testing-library/react';
+import { act, cleanup, fireEvent, render } from '@testing-library/react';
 import SelectOption from '@/components/SelectOption';
 import { DESTINATION } from '../constants';
 
@@ -19,7 +14,8 @@ describe('DateOption', () => {
           options={DESTINATION}
           handleSelect={handleSelect}
           label="Departure"
-        />);
+        />
+      );
     });
   });
 
@@ -43,7 +39,9 @@ describe('DateOption', () => {
     const { getByTestId } = await component;
     const selectComponent = getByTestId('select-Departure');
 
-    act(() => { fireEvent.change(selectComponent) })
+    act(() => {
+      fireEvent.change(selectComponent);
+    });
 
     expect(selectComponent).toBeInTheDocument();
   });

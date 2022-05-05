@@ -35,7 +35,7 @@ export default function FlightListItem({
     >
       <li className="container py-3 sm:py-4">
         <div className="container flex flex-col items-center gap-y-6 space-x-4 md:flex-row md:gap-y-0">
-          <div className="flex min-w-0 flex-1 flex-col md:gap-6 text-center md:flex-row md:text-left">
+          <div className="flex min-w-0 flex-1 flex-col text-center md:flex-row md:gap-6 md:text-left">
             <MdFlightTakeoff
               size={28}
               className="m-auto h-8 w-8 rounded-full "
@@ -49,7 +49,7 @@ export default function FlightListItem({
               </p>
             </div>
           </div>
-          <div className="flex min-w-0 flex-1 flex-col md:gap-6 text-center md:flex-row md:text-left">
+          <div className="flex min-w-0 flex-1 flex-col text-center md:flex-row md:gap-6 md:text-left">
             <MdFlightLand size={28} className=" m-auto h-8 w-8 rounded-full" />
             <div className="flex flex-col gap-2">
               <p className="truncate text-sm font-medium text-gray-900 dark:text-white">
@@ -60,8 +60,8 @@ export default function FlightListItem({
               </p>
             </div>
           </div>
-          <div className="flex min-w-0 flex-1 gap-6 text-center md:text-left justify-center">
-            <div className="flex flex-col item-center gap-2">
+          <div className="flex min-w-0 flex-1 justify-center gap-6 text-center md:text-left">
+            <div className="item-center flex flex-col gap-2">
               <p className="truncate text-center text-sm font-medium text-gray-900 dark:text-white">
                 {seatavailability}
               </p>
@@ -70,7 +70,7 @@ export default function FlightListItem({
               </p>
             </div>
           </div>
-          <div className="flex min-w-0 flex-1 gap-6 justify-center">
+          <div className="flex min-w-0 flex-1 justify-center gap-6">
             <div className="flex flex-col gap-2">
               <p className="truncate text-sm font-medium text-blue-800 dark:text-white">
                 {offertype}
