@@ -17,6 +17,6 @@ describe('Home', () => {
 
   it('should match snapshot', async () => {
     const HomeComponent = await component;
-    expect(HomeComponen).toMatchSnapshot();
+    expect(HomeComponent).toMatchSnapshot();
   });
 });

@@ -6,6 +6,14 @@ import dynamic from 'next/dynamic';
 const DateOption = dynamic(() => import('./DateOption'));
 const SelectOption = dynamic(() => import('./SelectOption'));
 
+export type SearchParamsProps = {
+  origin: string;
+  destination: string;
+  departureDate: string;
+  returnDate: string;
+  cabinCode: string;
+};
+
 type SearchBarProps = {
   headerText?: string;
   handleSearch: (
@@ -108,7 +116,7 @@ const SearchBar: React.FC<SearchBarProps> = ({ headerText, handleSearch }) => {
           )
         }
         type="button"
-        className=" md:w-1/4 my-8 self-center md:self-end rounded-full bg-blue-700 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+        className=" my-8 self-center rounded-full bg-blue-700 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 md:w-1/4 md:self-end"
       >
         Search flights
       </button>

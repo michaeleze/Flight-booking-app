@@ -3,40 +3,49 @@ import {
   cleanup,
   fireEvent,
   render,
-  RenderResult,
-  screen,
 } from '@testing-library/react';
 import SelectOption from '@/components/SelectOption';
+import { DESTINATION } from '../constants';
 
-const ITEM = {
-  origin: 'LOS',
-  departuredate: '10.10.2010',
-  destination: 'FRA',
-  returndate: '10.12.2010',
-  seatavailability: '2',
-  offertype: 'economy',
-  price: {
-    amount: '50',
-    currency: 'EUR',
-  },
-};
+const handleSelect = jest.fn();
 
 describe('DateOption', () => {
   let component;
 
   beforeEach(() => {
     act(() => {
-      component = render(<FlightList item={ITEM} />);
+      component = render(
+        <SelectOption
+          options={DESTINATION}
+          handleSelect={handleSelect}
+          label="FRA"
+        />);
     });
   });
 
   afterEach(cleanup);
 
-  it('should renders an item in component', async () => {
-    const { getByText } = await component;
-    const text = getByText(ITEM.departuredate);
+  it('should renders select component', async () => {
+    const { getByTestId } = await component;
+    const selectComponent = getByTestId('select');
 
-    expect(text).toBeInTheDocument();
+    expect(selectComponent).toBeInTheDocument();
+  });
+
+  it('should renders options', async () => {
+    const { getByTestId } = await component;
+    const selectComponent = getByTestId('select-option-FCO');
+
+    expect(selectComponent).toBeInTheDocument();
+  });
+
+  it('should renders options', async () => {
+    const { getByTestId } = await component;
+    const selectComponent = getByTestId('select');
+
+    fireEvent.change(selectComponent);
+
+    expect(selectComponent).toBeInTheDocument();
   });
 
   it('should match snapshot', () => {

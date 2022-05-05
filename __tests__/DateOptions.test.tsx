@@ -1,16 +1,15 @@
-import {
-  act,
-  cleanup,
-  fireEvent,
-  render,
-  RenderResult,
-  screen,
-} from '@testing-library/react';
+import { act, cleanup, fireEvent, render } from '@testing-library/react';
 import DateOption from '@/components/DateOption';
 
 const LABEL = 'Departure date';
 const DEPATURE_DATE = '01.10.2020';
-const handleChangeDepartureDate = jest.fn();
+const handleChangeDepartureDate = jest.fn(() => ({
+  event: {
+    target: {
+      value: DEPATURE_DATE,
+    },
+  },
+}));
 
 describe('DateOption', () => {
   let component;
@@ -21,6 +20,7 @@ describe('DateOption', () => {
         <DateOption
           label={LABEL}
           handleSelectDate={handleChangeDepartureDate}
+          value={DEPATURE_DATE}
         />
       );
     });
@@ -28,31 +28,21 @@ describe('DateOption', () => {
 
   afterEach(cleanup);
 
-  it('should renders component', async () => {
-    const { getByTestId } = await component;
+  it('should render component', () => {
+    const { getByTestId } = component;
     const label = getByTestId(/date-input--label/i);
 
     expect(label).toBeInTheDocument();
   });
 
-  it('should fire onChange', async () => {
-    const { getByTestId } = await component;
+  it('should fire onChange', () => {
+    const { getByTestId } = component;
 
     fireEvent.change(getByTestId('date-input'), {
       target: { value: DEPATURE_DATE },
     });
 
-    expect(handleChangeDepartureDate).toHaveBeenCalledOnce();
-  });
-
-  it('should fire onChange', async () => {
-    const { getByTestId } = await component;
-
-    fireEvent.change(getByTestId('date-input'), {
-      target: { value: DEPATURE_DATE },
-    });
-
-    expect(component).toHaveValue(DEPATURE_DATE);
+    expect(handleChangeDepartureDate).toHaveBeenCalledTimes(1);
   });
 
   it('should match snapshot', () => {

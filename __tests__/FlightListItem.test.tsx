@@ -1,11 +1,4 @@
-import {
-  act,
-  cleanup,
-  fireEvent,
-  render,
-  RenderResult,
-  screen,
-} from '@testing-library/react';
+import { act, cleanup, render } from '@testing-library/react';
 import FlightList from '@/components/FlightListItem';
 
 const ITEM = {
