@@ -1,6 +1,6 @@
-# EuroWIngs Flight Booking
+# Flight Booking
 
-This Application returns flight schedule for a particular date.
+This Application returns same flight schedule for any destination and date.
 
 ### Install modules
 
