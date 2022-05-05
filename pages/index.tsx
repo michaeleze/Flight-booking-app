@@ -10,11 +10,11 @@ const Home: NextPage = () => {
   const [flightResult, setFlightResult] = useState([]);
 
   const handleSearch = async (
-    selectedOrigin: string,
-    selectedDestination: string,
-    departureDate: string,
-    returnDate: string,
-    cabinCode: string
+    selectedOrigin?: string,
+    selectedDestination?: string,
+    departureDate?: string,
+    returnDate?: string,
+    cabinCode?: string
   ) => {
     if (!selectedOrigin || !selectedDestination) {
       alert('Please select origin and destination');
@@ -37,7 +37,7 @@ const Home: NextPage = () => {
 
   return (
     <div data-testid="home" className="container m-6 mx-auto">
-      <SearchBar handleSearch={handleSearch} headerText="Search Flights" />
+      <SearchBar handleSearch={handleSearch} headerText="Flight Booking" />
       {flightResult &&
         flightResult?.map((item: FlightListItemProps) => (
           <div key={item.uuid}>

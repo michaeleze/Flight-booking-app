@@ -17,63 +17,61 @@ export type SearchParamsProps = {
 type SearchBarProps = {
   headerText?: string;
   handleSearch: (
-    origin: string,
-    destination: string,
-    departureDate: string,
-    returnDate: string,
-    cabinCode: string
+    origin?: string,
+    destination?: string,
+    departureDate?: string,
+    returnDate?: string,
+    cabinCode?: string
   ) => void;
 };
 
+type StateProps = {
+  origin?: string;
+  destination?: string;
+  departureDate?: string;
+  returnDate?: string;
+  cabinCode?: string;
+};
+
 const SearchBar: React.FC<SearchBarProps> = ({ headerText, handleSearch }) => {
-  const [selectedOrigin, setSelectedOrigin] = React.useState<string>('');
-  const [selectedDestination, setSelectedDestination] =
-    React.useState<string>('');
-  const [departureDate, setDepartureDate] = React.useState<string>('');
-  const [returnDate, setReturnDate] = React.useState<string>('');
-  const [cabinCode, setCabinCode] = React.useState<string>('');
+  const [state, setState] = React.useState<StateProps | undefined>();
 
-  const handleSelectOrigin = (event: ChangeEvent<HTMLSelectElement>) => {
-    setSelectedOrigin(event?.target?.value);
+  const handleSelect = (event: ChangeEvent<HTMLSelectElement>) => {
+    const name = event?.target?.name;
+    const value = event?.target?.value;
+
+    setState({ ...state, [name]: value });
   };
-
-  const handleSelectDestination = (event: ChangeEvent<HTMLSelectElement>) =>
-    setSelectedDestination(event?.currentTarget?.value);
-
-  const handleChangeDepartureDate = (event: ChangeEvent<HTMLInputElement>) =>
-    setDepartureDate(event?.currentTarget?.value);
-
-  const handleChangeReturnDate = (event: ChangeEvent<HTMLInputElement>) =>
-    setReturnDate(event?.currentTarget?.value);
-
-  const handleSelectCode = (event: ChangeEvent<HTMLSelectElement>) =>
-    setCabinCode(event?.currentTarget?.value);
 
   const selectOptions = [
     {
       options: ORIGIN,
       label: 'Departure',
-      selected: selectedOrigin,
-      handleSelect: handleSelectOrigin,
+      name: 'origin',
+      selected: state?.origin,
+      handleSelect,
     },
     {
       options: DESTINATION,
       label: 'Destination',
-      selected: selectedDestination,
-      handleSelect: handleSelectDestination,
+      name: 'destination',
+      selected: state?.destination,
+      handleSelect,
     },
   ];
 
   const dateOptions = [
     {
       label: 'Departure date',
-      value: departureDate,
-      handleSelectDate: handleChangeDepartureDate,
+      value: state?.departureDate,
+      name: 'departureDate',
+      handleSelect,
     },
     {
       label: 'Return date',
-      value: returnDate,
-      handleSelectDate: handleChangeReturnDate,
+      name: 'returnDate',
+      value: state?.returnDate,
+      handleSelect,
     },
   ];
 
@@ -81,38 +79,42 @@ const SearchBar: React.FC<SearchBarProps> = ({ headerText, handleSearch }) => {
     <div className="container group relative z-0 mx-auto flex max-w-5xl flex-col space-x-4 rounded-xl bg-white p-6 shadow-md">
       <div className="flex gap-3 pb-10">
         <MdFlight size={28} />
-        <h1 className="text-2xl">{headerText}</h1>
+        <h1 className="text-3xl font-bold">{headerText}</h1>
       </div>
       <div className="flex flex-col gap-12 py-5 md:flex-row">
         {selectOptions.map((option, index) => (
-          <div key={index}>
+          <div key={index} className="container md:w-1/2">
             <SelectOption {...option}></SelectOption>
           </div>
         ))}
       </div>
       <div className="flex flex-col gap-12 py-5 md:flex-row">
         {dateOptions.map((option, index) => (
-          <div key={index}>
+          <div
+            key={index}
+            className="group container relative z-0 mb-6 md:w-1/3"
+          >
             <DateOption {...option}></DateOption>
           </div>
         ))}
-        <div className="group relative z-0 mb-6 md:w-1/4">
+        <div className="group relative z-0 mb-6 md:w-1/3">
           <SelectOption
             label="Travel class"
+            name="cabinCode"
             options={CABIN_CODE}
-            selected={cabinCode}
-            handleSelect={handleSelectCode}
+            selected={state?.cabinCode}
+            handleSelect={handleSelect}
           />
         </div>
       </div>
       <button
         onClick={() =>
           handleSearch(
-            selectedOrigin,
-            selectedDestination,
-            departureDate,
-            returnDate,
-            cabinCode
+            state?.origin,
+            state?.destination,
+            state?.departureDate,
+            state?.returnDate,
+            state?.cabinCode
           )
         }
         type="button"

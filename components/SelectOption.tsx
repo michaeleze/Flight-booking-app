@@ -4,15 +4,17 @@ export default function SelectOption(props: {
   options?: Array<{ id: string; value: string }>;
   handleSelect?: ChangeEventHandler<HTMLSelectElement> | undefined;
   label: string;
+  name?: string;
   selected?: string;
 }) {
-  const { options, handleSelect, label, selected } = props;
+  const { options, handleSelect, label, name, selected } = props;
 
   return (
     <div className="group relative z-0 mb-6 w-full">
       <select
         data-testid={`select-${label}`}
         id={label}
+        name={name}
         onChange={handleSelect}
         value={selected}
         className="peer block w-full appearance-none border-0 border-b-2 border-gray-100 bg-transparent py-2.5 px-0 text-sm text-gray-900 focus:border-blue-600 focus:outline-none focus:ring-0 dark:border-gray-600 dark:text-white dark:focus:border-blue-500"
