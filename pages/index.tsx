@@ -31,7 +31,7 @@ const Home: NextPage = () => {
   };
 
   return (
-    <>
+    <div data-testid="home">
       <SearchBar handleSearch={handleSearch} headerText="Search Flights" />
       {flightResult &&
         flightResult?.map((item: FlightListItemProps) => (
@@ -39,7 +39,7 @@ const Home: NextPage = () => {
             <FlightListItem item={item} />
           </div>
         ))}
-    </>
+    </div>
   );
 };
 

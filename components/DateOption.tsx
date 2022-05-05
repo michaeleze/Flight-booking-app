@@ -11,6 +11,7 @@ export default function DateOption(props: {
     <div className="group relative z-0 mb-6 w-1/4">
       <div className="group relative z-0 mb-6 w-full">
         <input
+          data-testid="date-input"
           onChange={handleSelectDate}
           value={value}
           type="date"
@@ -19,6 +20,7 @@ export default function DateOption(props: {
           required
         />
         <label
+          data-testid="date-input--label"
           htmlFor="floating_email"
           className="absolute top-3 -z-10 origin-[0] -translate-y-6 scale-75 transform text-sm text-gray-500 duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:left-0 peer-focus:-translate-y-6 peer-focus:scale-75 peer-focus:font-medium peer-focus:text-blue-600 dark:text-gray-400 peer-focus:dark:text-blue-500"
         >

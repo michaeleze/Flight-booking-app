@@ -11,7 +11,7 @@ export type FlightListItemProps = {
     amount?: string;
     currency?: string;
   };
-  uuid: string;
+  uuid?: string;
 };
 
 export default function FlightListItem({
