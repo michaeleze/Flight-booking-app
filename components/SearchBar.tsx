@@ -84,17 +84,17 @@ const SearchBar: React.FC<SearchBarProps> = ({ headerText, handleSearch }) => {
         <h1 className="text-2xl">{headerText}</h1>
       </div>
       <div className="flex flex-col gap-12 py-5 md:flex-row">
-        {selectOptions.map((option) => (
-          <>
+        {selectOptions.map((option, index) => (
+          <div key={index}>
             <SelectOption {...option}></SelectOption>
-          </>
+          </div>
         ))}
       </div>
       <div className="flex flex-col gap-12 py-5 md:flex-row">
-        {dateOptions.map((option) => (
-          <>
+        {dateOptions.map((option, index) => (
+          <div key={index}>
             <DateOption {...option}></DateOption>
-          </>
+          </div>
         ))}
         <div className="group relative z-0 mb-6 md:w-1/4">
           <SelectOption
