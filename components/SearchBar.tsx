@@ -27,8 +27,7 @@ const SearchBar: React.FC<SearchBarProps> = ({ headerText, handleSearch }) => {
 
   const handleSelectOrigin = (event: ChangeEvent<HTMLSelectElement>) => {
     setSelectedOrigin(event?.target?.value);
-  }
-
+  };
 
   const handleSelectDestination = (event: ChangeEvent<HTMLSelectElement>) =>
     setSelectedDestination(event?.currentTarget?.value);
@@ -42,42 +41,54 @@ const SearchBar: React.FC<SearchBarProps> = ({ headerText, handleSearch }) => {
   const handleSelectCode = (event: ChangeEvent<HTMLSelectElement>) =>
     setCabinCode(event?.currentTarget?.value);
 
+  const selectOptions = [
+    {
+      options: ORIGIN,
+      label: 'Departure',
+      selected: selectedOrigin,
+      handleSelect: handleSelectOrigin,
+    },
+    {
+      options: DESTINATION,
+      label: 'Destination',
+      selected: selectedDestination,
+      handleSelect: handleSelectDestination,
+    },
+  ];
+
+  const dateOptions = [
+    {
+      label: 'Departure date',
+      value: departureDate,
+      handleSelectDate: handleChangeDepartureDate,
+    },
+    {
+      label: 'Return date',
+      value: returnDate,
+      handleSelectDate: handleChangeReturnDate,
+    },
+  ];
+
   return (
-    <div className="container my-8 mx-auto flex max-w-5xl flex-col space-x-4 rounded-xl bg-white p-6 shadow-md">
+    <div className="container group relative z-0 mx-auto flex max-w-5xl flex-col space-x-4 rounded-xl bg-white p-6 shadow-md">
       <div className="flex gap-3 pb-10">
         <MdFlight size={28} />
         <h1 className="text-2xl">{headerText}</h1>
       </div>
-      <div className="flex flex-row gap-12 py-5">
-        <div className="group relative z-0 mb-6 w-1/2">
-          <SelectOption
-            label="Departure"
-            options={ORIGIN}
-            selected={selectedOrigin}
-            handleSelect={handleSelectOrigin}
-          />
-        </div>
-        <div className="group relative z-0 mb-6 w-1/2">
-          <SelectOption
-            label="Destination"
-            options={DESTINATION}
-            selected={selectedDestination}
-            handleSelect={handleSelectDestination}
-          />
-        </div>
+      <div className="flex flex-col gap-12 py-5 md:flex-row">
+        {selectOptions.map((option) => (
+          <>
+            <SelectOption {...option}></SelectOption>
+          </>
+        ))}
       </div>
-      <div className="flex flex-row gap-12 py-5">
-        <DateOption
-          label="Departure date"
-          handleSelectDate={handleChangeDepartureDate}
-          value={departureDate}
-        />
-        <DateOption
-          label="Return date"
-          handleSelectDate={handleChangeReturnDate}
-          value={returnDate}
-        />
-        <div className="group relative z-0 mb-6 w-1/4">
+      <div className="flex flex-col gap-12 py-5 md:flex-row">
+        {dateOptions.map((option) => (
+          <>
+            <DateOption {...option}></DateOption>
+          </>
+        ))}
+        <div className="group relative z-0 mb-6 md:w-1/4">
           <SelectOption
             label="Travel class"
             options={CABIN_CODE}
@@ -97,7 +108,7 @@ const SearchBar: React.FC<SearchBarProps> = ({ headerText, handleSearch }) => {
           )
         }
         type="button"
-        className="my-6 mr-2 w-1/4 self-end rounded-full bg-blue-700 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+        className=" md:w-1/4 my-8 self-center md:self-end rounded-full bg-blue-700 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
       >
         Search flights
       </button>

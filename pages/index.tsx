@@ -16,6 +16,11 @@ const Home: NextPage = () => {
     returnDate: string,
     cabinCode: string
   ) => {
+    if (!selectedOrigin || !selectedDestination) {
+      alert('Please select origin and destination');
+      return;
+    }
+
     try {
       const flightInfo = await fetch(
         `/api/flights?origin=${selectedOrigin}&destination=${selectedDestination}&departureDate=${departureDate}&returnDate=${returnDate}&cabinCode=${cabinCode}`,
@@ -31,7 +36,7 @@ const Home: NextPage = () => {
   };
 
   return (
-    <div data-testid="home">
+    <div data-testid="home" className="container m-6 mx-auto">
       <SearchBar handleSearch={handleSearch} headerText="Search Flights" />
       {flightResult &&
         flightResult?.map((item: FlightListItemProps) => (

@@ -8,7 +8,7 @@ export default function DateOption(props: {
   const { handleSelectDate, label, value } = props;
 
   return (
-    <div className="group relative z-0 mb-6 w-1/4">
+    <div className="group relative z-0 mb-6 md:w-1/3">
       <div className="group relative z-0 mb-6 w-full">
         <input
           data-testid="date-input"

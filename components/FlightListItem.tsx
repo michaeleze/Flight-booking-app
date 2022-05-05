@@ -33,10 +33,13 @@ export default function FlightListItem({
       role="list"
       className="my-8 mx-auto flex flow-root max-w-5xl space-x-4 divide-y divide-gray-200 rounded-xl bg-white p-6 shadow-md dark:divide-gray-700 sm:flex-row md:flex-col"
     >
-      <li className="py-3 sm:py-4">
-        <div className="container flex items-center space-x-4">
-          <div className="flex min-w-0 flex-1 gap-6">
-            <MdFlightTakeoff size={28} className="h-8 w-8 rounded-full" />
+      <li className="container py-3 sm:py-4">
+        <div className="container flex flex-col items-center gap-y-6 space-x-4 md:flex-row md:gap-y-0">
+          <div className="flex min-w-0 flex-1 flex-col gap-6 text-center md:flex-row md:text-left">
+            <MdFlightTakeoff
+              size={28}
+              className="m-auto h-8 w-8 rounded-full "
+            />
             <div className="flex flex-col gap-2">
               <p className="truncate text-sm font-medium text-gray-900 dark:text-white">
                 {origin}
@@ -46,8 +49,8 @@ export default function FlightListItem({
               </p>
             </div>
           </div>
-          <div className="flex min-w-0 flex-1 gap-6">
-            <MdFlightLand size={28} className="h-8 w-8 rounded-full" />
+          <div className="flex min-w-0 flex-1 flex-col gap-6 text-center md:flex-row md:text-left">
+            <MdFlightLand size={28} className=" m-auto h-8 w-8 rounded-full" />
             <div className="flex flex-col gap-2">
               <p className="truncate text-sm font-medium text-gray-900 dark:text-white">
                 {destination}

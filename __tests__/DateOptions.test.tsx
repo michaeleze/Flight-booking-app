@@ -1,7 +1,14 @@
-import { act, cleanup, fireEvent, render, RenderResult, screen } from '@testing-library/react';
+import {
+  act,
+  cleanup,
+  fireEvent,
+  render,
+  RenderResult,
+  screen,
+} from '@testing-library/react';
 import DateOption from '@/components/DateOption';
 
-const LABEL = "Departure date";
+const LABEL = 'Departure date';
 const DEPATURE_DATE = '01.10.2020';
 const handleChangeDepartureDate = jest.fn();
 
@@ -14,7 +21,8 @@ describe('DateOption', () => {
         <DateOption
           label={LABEL}
           handleSelectDate={handleChangeDepartureDate}
-        />);
+        />
+      );
     });
   });
 
@@ -27,10 +35,12 @@ describe('DateOption', () => {
     expect(label).toBeInTheDocument();
   });
 
-  it('should fire onChange',async  () => {
+  it('should fire onChange', async () => {
     const { getByTestId } = await component;
 
-    fireEvent.change(getByTestId('date-input'), { target: { value: DEPATURE_DATE } })
+    fireEvent.change(getByTestId('date-input'), {
+      target: { value: DEPATURE_DATE },
+    });
 
     expect(handleChangeDepartureDate).toHaveBeenCalledOnce();
   });
@@ -38,7 +48,9 @@ describe('DateOption', () => {
   it('should fire onChange', async () => {
     const { getByTestId } = await component;
 
-    fireEvent.change(getByTestId('date-input'), { target: { value: DEPATURE_DATE } })
+    fireEvent.change(getByTestId('date-input'), {
+      target: { value: DEPATURE_DATE },
+    });
 
     expect(component).toHaveValue(DEPATURE_DATE);
   });

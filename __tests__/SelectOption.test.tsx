@@ -1,4 +1,11 @@
-import { act, cleanup, fireEvent, render, RenderResult, screen } from '@testing-library/react';
+import {
+  act,
+  cleanup,
+  fireEvent,
+  render,
+  RenderResult,
+  screen,
+} from '@testing-library/react';
 import SelectOption from '@/components/SelectOption';
 
 const ITEM = {
@@ -10,8 +17,8 @@ const ITEM = {
   offertype: 'economy',
   price: {
     amount: '50',
-    currency: 'EUR'
-  }
+    currency: 'EUR',
+  },
 };
 
 describe('DateOption', () => {
@@ -19,10 +26,7 @@ describe('DateOption', () => {
 
   beforeEach(() => {
     act(() => {
-      component = render(
-        <FlightList
-          item={ITEM}
-        />);
+      component = render(<FlightList item={ITEM} />);
     });
   });
 
