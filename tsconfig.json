@@ -34,7 +34,8 @@
   "include": [
     "next-env.d.ts",
     "**/*.ts",
-    "**/*.tsx"
+    "**/*.tsx",
+    "__tests__/Flight"
   ],
   "exclude": [
     "node_modules"

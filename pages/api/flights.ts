@@ -7,6 +7,7 @@ export default function handler(
 ) {
   if (req.method === 'GET') {
     const { origin, destination } = req.query;
+    res.setHeader('Content-Type', 'application/json');
     if (origin && destination) res.status(200).json(mock);
   }
 }
