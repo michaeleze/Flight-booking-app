@@ -6,17 +6,6 @@ import {
   fireEvent,
 } from '@testing-library/react';
 import Home from '@/pages/index';
-import SearchBar from '../components/SearchBar';
-
-const handleSearch = jest.fn(
-  (
-    origin = 'FRA',
-    destination = 'FCO',
-    departureDate = '2020-10-01',
-    returnDate = '2020-10-02',
-    cabinCode = 'economy'
-  ) => null
-);
 
 describe('Home', () => {
   let component: RenderResult<
