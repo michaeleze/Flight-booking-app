@@ -1,3 +1,4 @@
+import React from 'react';
 import { MdFlightTakeoff, MdFlightLand } from 'react-icons/md';
 
 export type FlightListItemProps = {
@@ -14,11 +15,7 @@ export type FlightListItemProps = {
   uuid?: string;
 };
 
-export default function FlightListItem({
-  item,
-}: {
-  item: FlightListItemProps;
-}) {
+function FlightListItem({ item }: { item: FlightListItemProps }) {
   const {
     origin,
     departuredate,
@@ -89,3 +86,5 @@ export default function FlightListItem({
     </ul>
   );
 }
+
+export default React.memo(FlightListItem);

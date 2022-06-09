@@ -1,6 +1,6 @@
 import React, { ChangeEventHandler } from 'react';
 
-export default function DateOption(props: {
+function DateOption(props: {
   handleSelectDate?: ChangeEventHandler<HTMLInputElement> | undefined;
   label: string;
   name?: string;
@@ -29,3 +29,5 @@ export default function DateOption(props: {
     </div>
   );
 }
+
+export default React.memo(DateOption);

@@ -1,6 +1,7 @@
+import React from 'react';
 import { ChangeEventHandler } from 'react';
 
-export default function SelectOption(props: {
+function SelectOption(props: {
   options?: Array<{ id: string; value: string }>;
   handleSelect?: ChangeEventHandler<HTMLSelectElement> | undefined;
   label: string;
@@ -38,3 +39,5 @@ export default function SelectOption(props: {
     </div>
   );
 }
+
+export default React.memo(SelectOption);

@@ -2,6 +2,7 @@ import type { NextPage } from 'next';
 import dynamic from 'next/dynamic';
 import { FlightListItemProps } from '@/components/FlightListItem';
 import { useState } from 'react';
+import React from 'react';
 
 const SearchBar = dynamic(() => import('@/components/SearchBar'));
 const FlightListItem = dynamic(() => import('@/components/FlightListItem'));
@@ -48,4 +49,4 @@ const Home: NextPage = () => {
   );
 };
 
-export default Home;
+export default React.memo(Home);
