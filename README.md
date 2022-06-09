@@ -1,6 +1,6 @@
 # Flight Booking
 
-This Application returns same flight schedule for any destination and date.
+This Application is a fligh booking application with mock api that returns same flight schedule for any destination and date - no logic onn the backend yet.
 
 ### Install modules
 
